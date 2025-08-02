@@ -24,3 +24,22 @@ Make sure Python is installed on your system. Then install the `cryptography` pa
 
 ```bash
 pip install cryptography
+```
+
+## 🚀 How to Use?
+
+- 1. Encrypt Files
+
+Run the encrypt script and follow the prompts:
+
+```bash
+python encrypt.py
+```
+
+It will:
+
+- Generate a key
+- Save it as a .key file
+- Encrypt all files in the specified folder
+
+
