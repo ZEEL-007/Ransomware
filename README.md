@@ -28,7 +28,7 @@ pip install cryptography
 
 ## 🚀 How to Use?
 
-- 1. Encrypt Files
+- Encrypt Files
 
 Run the encrypt script and follow the prompts:
 
@@ -36,10 +36,33 @@ Run the encrypt script and follow the prompts:
 python encrypt.py
 ```
 
-It will:
-
+It will :
 - Generate a key
 - Save it as a .key file
 - Encrypt all files in the specified folder
 
+- Decrypt Files
 
+Use the decrypt script with the saved key:
+
+```bash
+python decrypt.py
+```
+
+---
+
+Recommended Use :
+- Test in a Virtual Machine or dummy folder
+- Never run this on important files
+- Best for students learning about malware, encryption, or Python automation
+
+---
+
+## Author
+This project was made by `ZEEL KOTADIYA` as part of practical learning.
+Feel free to fork, study, and use it for ethical hacking education.
+
+---
+
+## Disclaimer ⚠️
+This script is for `educational use` only. The author does not take any responsibility for misuse or damage caused by running the code irresponsibly.
